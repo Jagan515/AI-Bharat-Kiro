@@ -1,0 +1,13 @@
+{
+  "name": "Auto-Organize Code Files",
+  "description": "Automatically organize coding files when saved",
+  "enabled": false,
+  "trigger": {
+    "type": "onFileSave",
+    "filePattern": "**/*.{cpp,py,java}"
+  },
+  "action": {
+    "type": "command",
+    "command": "python3 organize_code_files.py --source . --output organized_code"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Organize Code Files (Manual)",
+  "description": "Manually trigger code organization with dry-run preview",
+  "enabled": true,
+  "trigger": {
+    "type": "manual"
+  },
+  "action": {
+    "type": "agentMessage",
+    "message": "Run the code organizer with dry-run mode to preview how files will be organized: `python3 organize_code_files.py --dry-run`"
+  }
+}
