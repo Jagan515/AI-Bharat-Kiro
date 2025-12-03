@@ -41,6 +41,24 @@
 - Created example files for testing automatically
 - Set up .kiro steering rules for project standards
 
+#### 📸 Kiro Generating the Initial Script
+
+<img src="./images/pic1.png" width="700" alt="Kiro generating the code organizer script">
+
+*Figure 1: Kiro understanding the requirements and generating the initial CodeOrganizer class with keyword patterns*
+
+#### 📸 Kiro Creating Example Files
+
+<img src="./images/pic2.png" width="700" alt="Kiro creating example test files">
+
+*Figure 2: Kiro automatically creating diverse example files covering different algorithm topics for testing*
+
+#### 📸 Kiro Setting Up Project Structure
+
+<img src="./images/pic3.png" width="700" alt="Kiro setting up .kiro directory and documentation">
+
+*Figure 3: Kiro setting up the .kiro directory with steering rules and generating comprehensive documentation*
+
 **Specific Kiro Contributions**:
 1. **Rapid Prototyping**: Generated initial script structure with all 16 topic categories
 2. **Smart Suggestions**: Recommended regex patterns for algorithm detection
@@ -79,6 +97,7 @@ for topic, keywords in self.TOPIC_KEYWORDS.items():
 
 ### 5. Results & Demo
 
+#### Before Organization
 **Before**:
 ```
 my_code/
@@ -89,6 +108,12 @@ my_code/
 └── ... (200 more files)
 ```
 
+<!-- Add screenshot of messy folder here -->
+<img src="./images/before_organization.png" width="700" alt="Messy folder before organization">
+
+*Figure 4: Messy folder with unorganized coding files*
+
+#### After Organization
 **After**:
 ```
 organized_code/
@@ -102,6 +127,17 @@ organized_code/
 │   └── dijkstra_graph.py
 └── ... (14 more categories)
 ```
+
+<!-- Add screenshot of organized folder here -->
+<img src="./images/after_organization.png" width="700" alt="Organized folder structure">
+
+*Figure 5: Clean, organized folder structure with topic-based categories*
+
+#### Terminal Output
+<!-- Add screenshot of terminal output here -->
+<img src="./images/terminal_output.png" width="700" alt="Terminal showing organization process">
+
+*Figure 6: Terminal output showing the organization process in action*
 
 **Statistics**:
 - 6 example files organized in < 1 second
